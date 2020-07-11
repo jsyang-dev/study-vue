@@ -4,8 +4,8 @@
         <form v-on:submit="onSubmitForm">
             <input ref="answer" maxlength="4" v-model="value"/>
         </form>
+        <div>시도: {{}}</div>
     </div>
-    <div>시도: {{}}</div>
 </template>
 
 <script>
